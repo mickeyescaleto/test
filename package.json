@@ -4,6 +4,8 @@
   "description": "The portfolio system of students of the Moscow Polytechnic University",
   "private": "true",
   "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
     "prepare": "husky"
   },
