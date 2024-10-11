@@ -11,6 +11,13 @@
       "cache": false,
       "persistent": true
     },
-    "lint": {}
+    "lint": {},
+    "db:generate": {
+      "cache": false
+    },
+    "db:push": {
+      "cache": false
+    },
+    "db:studio": {}
   }
 }
