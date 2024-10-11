@@ -4,7 +4,8 @@
   "private": "true",
   "scripts": {
     "build": "bun build --compile --minify-whitespace --minify-syntax ./src/main.ts --outfile server",
-    "dev": "bun run --watch src/main.ts"
+    "dev": "bun run --watch src/main.ts",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@elysiajs/cors": "^1.1.1",
@@ -12,8 +13,10 @@
     "elysia": "^1.1.20"
   },
   "devDependencies": {
+    "@mospolyworks/eslint-config": "workspace:*",
     "@mospolyworks/typescript-config": "workspace:*",
     "bun-types": "^1.1.30",
+    "eslint": "^9.12.0",
     "typescript": "^5.6.3"
   },
   "main": "src/main.ts",
