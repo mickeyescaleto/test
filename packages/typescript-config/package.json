@@ -1,0 +1,11 @@
+{
+  "name": "@mospolyworks/typescript-config",
+  "version": "1.0.0",
+  "private": "true",
+  "files": [
+    "base.json",
+    "nextjs.json",
+    "elysiajs.json",
+    "react-library.json"
+  ]
+}

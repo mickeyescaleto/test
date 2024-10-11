@@ -1,0 +1,11 @@
+{
+  "extends": "@mospolyworks/typescript-config/elysiajs.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@server/*": ["src/*"]
+    }
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}
