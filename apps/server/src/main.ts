@@ -7,3 +7,5 @@ const app = new Elysia()
   .use(swagger())
   .get('/', () => 'Hello Elysia')
   .listen(3000, ({ url }) => console.log(`🦊 Elysia is running at ${url}`));
+
+export type App = typeof app;
