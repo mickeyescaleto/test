@@ -4,9 +4,10 @@
     "outDir": "dist",
     "baseUrl": "./",
     "paths": {
-      "@mospolyworks/ui/*": ["src/*"]
+      "@ui/components": ["src/components/*"],
+      "@ui/utilities": ["src/utilities/*"]
     }
   },
-  "include": ["**/*.ts"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", "dist", "**/*.css"]
 }
